@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import './App.css'
 import search1 from "./assets/search1.jpeg";
 import Sun from "./assets/Sun.png";
-import snow from "./assets/snow.jpeg";
+import snow from "./assets/snow.png";
 import drizzle from "./assets/drizzle.jpeg";
-import rain from "./assets/rain.jpeg";
-import cloud from "./assets/cloud.jpeg";
+import rain from "./assets/rain.png";
+import cloud from "./assets/cloud.png";
 import Season from "./assets/Season.jpg";
 
 const WeatherDetails = ({ icon, temp, city, country, lat, lon, humidity, wind }) => {
@@ -63,17 +63,17 @@ function App() {
     "01d": Sun,
     "01n": Sun,
     "02d": cloud,
-    "02n": cloud,
+    "02n":cloud,
     "03d": drizzle,
     "03n": drizzle,
-    "04d": drizzle,
-    "04n": drizzle,
+    "04d":cloud,
+    "04n":cloud,
     "09d": rain,
     "09n": rain,
-    "010d": rain,
-    "010n": rain,
-    "013d": snow,
-    "013n": snow,
+    "10d": rain,
+    "10n": rain,
+    "13d": snow,
+    "13n": snow,
 
   };
 
